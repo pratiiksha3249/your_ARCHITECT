@@ -1,0 +1,245 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="product.css">
+    <title>About Page</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background: hsla(260, 28%, 53%, 1);
+
+            background: linear-gradient(90deg, hsla(260, 28%, 53%, 1) 0%, hsla(170, 42%, 71%, 1) 100%);
+
+            background: -moz-linear-gradient(90deg, hsla(260, 28%, 53%, 1) 0%, hsla(170, 42%, 71%, 1) 100%);
+
+            background: -webkit-linear-gradient(90deg, hsla(260, 28%, 53%, 1) 0%, hsla(170, 42%, 71%, 1) 100%);
+
+            filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#7C65A9", endColorstr="#96D4CA", GradientType=1);
+
+            filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#9BF8F4", endColorstr="#6F7BF7", GradientType=1);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="img_about.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <div>
+                <font class="font1">your_</font>
+                <font class="font2">ARCHITECT </font>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            &nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp
+            
+
+            <li><a href="product.php">Products</a></li>
+            &nbsp&nbsp&nbsp&nbsp    &nbsp&nbsp&nbsp&nbsp
+
+            <li><a href="Make_Your_Dream.php">Make_Your_Dream</a></li>
+            &nbsp&nbsp&nbsp&nbsp    &nbsp&nbsp&nbsp&nbsp
+
+            <!-- <li><a href="History.php">History</a></li>
+            &nbsp&nbsp&nbsp&nbsp    &nbsp&nbsp&nbsp&nbsp -->
+
+            <li><a href="admin_validation.php">Admin</a></li>
+            &nbsp&nbsp&nbsp&nbsp    &nbsp&nbsp&nbsp&nbsp
+
+        </ul>
+        <div class="auth-buttons">
+            <button class="login-btn">Login</button>
+            <button class="signup-btn">Signup</button>
+        </div>
+    </nav>
+    <button class="back_button"><a href="product.php">GoBack</a></button>
+
+    <div class="text-box1">
+        <h2>general infomation</h2>
+        <p>Welcome to our charming home located in the heart of a vibrant and family-friendly neighborhood. This
+            spacious two-story house boasts a modern architectural style with clean lines and ample natural light. Built
+            in 2010 and meticulously maintained, the property offers 2,500 square feet of living space spread across
+            four bedrooms and three bathrooms. The open-concept layout features a welcoming foyer leading to a cozy
+            living room with a fireplace, perfect for gatherings with loved ones.</p>
+    </div>
+
+    <div class="img-container">
+
+        <div class="image-scroller" style="width: 40%;">
+            <div class="imagess">
+                <img src="./image/pic6.jpg" style="width: 200%;
+        height: 400px;" alt="Image 1">
+                <img src="./image/pic3.jpg" alt="Image 2" style="width: 80%; height: 400px;">
+                <img src= "./image/pic5.jpg" alt="Image 3" style="width: 80% ;height: 400px;">
+                <!-- Add more images as needed -->
+            </div>
+        </div>
+        <div class="nav-buttons">
+            <button id="prevBtn">Previous</button>
+            <button id="nextBtn">Next</button>
+        </div>
+        <div class="text-box">
+            <p>This is some sample text. Scroll the images horizontally or use the buttons to see the text change.</p>
+        </div>
+
+    </div>
+
+    <div class="container1">
+        <div class="column">
+            <section class="info-section">
+                <h2>Dimensions</h2>
+                <ul>
+                    <li>Floor Area: 2000 sq ft</li>
+                    <li>Lot Size: 0.25 acres</li>
+                    <li>Number of Bedrooms: 4</li>
+                    <li>Number of Bathrooms: 3</li>
+                </ul>
+            </section>
+        </div>
+        <div class="column">
+            <section class="info-section">
+                <h2>Type  <h2 class="type"></h2></h2>
+                <ul>
+
+                    <li class="a1">Walls   : </li>
+                    <li class="a2">Terrace : </li>
+                    <li class="a3">Stairs  : </li>
+                    <li class="a4">Garden  : </li>
+                </ul>
+            </section>
+        </div>
+        <div class="column">
+            <section class="info-section">
+                <h2>Architecture Style</h2>
+                <ul>
+                    <li>Colonial</li>
+                    <li>Modern</li>
+                    <li>Contemporary</li>
+                    <li>Ranch</li>
+                </ul>
+            </section>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="footer-info">
+                <p>&copy; 2024 Your Company. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    
+    <script>
+
+        const imagess = document.getElementsByClassName('.imagess img');
+        console.log(imagess);
+        const textBox = document.querySelector('.text-box p');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const infotype = document.querySelector('.type');
+        const a1 = document.querySelector('.a1');
+        const a2 = document.querySelector('.a2');
+        const a3 = document.querySelector('.a3');
+        const a4 = document.querySelector('.a4');
+        const a5 = document.querySelector('.a5');
+        let currentIndex = 0;
+        let info =
+            [
+            {   name: 'name : walls',
+                Areacoverd: "Areacovred : 200",
+                lotSize: "lotsize : 0.5 meter",
+                dimensimon: "dimension : 20 meter X 20 meter",
+                styling: 'styling : french',
+            },
+            
+            {
+                name: 'name : terrace',
+                Areacoverd: "Areacovred : 311",
+                lotSize: "lotsize : 0.35 meter",
+                dimensimon: "dimension : 26 meter X 60 meter",
+                styling: 'styling: sky blue'
+            },
+            {   name : 'name : Parking',
+                Areacoverd: "Areacovred : 150",
+                lotSize: "lotsize : 0.35 meter",
+                dimensimon: "dimension : 66 meter X 66 meter",
+                styling: 'styling: normal'
+                
+            },
+
+            ]
+
+            let text = [" Our properties boast walls constructed with the finest materials sourced from across the realms. Crafted from premium quality reinforced unicorn hair plastered over an enchanted stone foundation, these walls offer unparalleled strength and durability. Not only are they adorned with hand-painted designs by skilled artisans using non-toxic, glow-in-the-dark paint, but they also provide superior insulation courtesy of eco-friendly dragon scale insulation, ensuring optimal temperature control and soundproofing. Rest assured, these walls are not just walls—they're a testament to craftsmanship and magic."
+                 , "Step into a world of wonder with our enchanting roofs that grace our properties. Each roof is a masterpiece, featuring sustainably sourced rainbow tile roofs blessed by fairies for longevity and charm. With gentle slopes inspired by butterfly wings, these roofs not only captivate the eye but also efficiently collect rainwater. Beneath their whimsical exterior lies state-of-the-art phoenix feather insulation, ensuring energy efficiency and breathability. Whether it's the crackling of thunderstorms or the whisper of the wind, our roofs stand strong, a symbol of protection and serenity.",
+                 "Parking becomes an effortless affair with our magical garages and enchanted spaces. Glide into our magical garage, where space abounds for up to 10 flying carpets or 5 enchanted carriages. Beyond the confines of traditional parking, our properties offer unlimited parking spots in the enchanted forest, guarded by friendly woodland creatures. Feel secure knowing that our parking areas are under the watchful eye of 24/7 surveillance by vigilant unicorns equipped with horn-mounted security cameras. With convenient portal access directly from the property, your journey begins and ends seamlessly."
+        ]
+
+
+
+        function updateText() {
+            
+            if(currentIndex > 2 || currentIndex < 0){
+                textBox.textContent = ` ${text[0]}`;
+                infotype.textContent = `${info[0].name}`
+                // detailinfo.textContent = ${info[0].styling}
+                // a5.textContent = ${info[0].name}
+                a1.textContent = `${info[0].Areacovered}`
+                a2.textContent = `${info[0].lotSize}`
+                a3.textContent = `${info[0].dimensimon}`
+                a4.textContent = `${info[0].styling}`
+
+            }else{
+
+                textBox.textContent = `${text[currentIndex]}. ${currentIndex}`;
+                
+                infotype.textContent = `${info[currentIndex].name}`
+                // a5.textContent = ${info[currentIndex].name}
+                a1.textContent = `${info[currentIndex].Areacoverd}`
+                a2.textContent = `${info[currentIndex].lotSize}`
+               a3.textContent = `${info[currentIndex].dimensimon}`
+                a4.textContent = `${info[currentIndex].styling}`
+           }
+        }
+
+        function updateImage(index) {
+            imagess.forEach(img => img.style.display = 'none');
+            imagess[index].style.display = 'block';
+        }
+
+        function goToPrevImage() {
+            currentIndex = (currentIndex - 1 + imagess.length) % imagess.length;
+            updateImage(currentIndex);
+            updateText();
+        }
+
+        function goToNextImage() {
+            currentIndex = (currentIndex + 1) % imagess.length;
+            updateImage(currentIndex);
+            updateText();
+        }
+
+        prevBtn.addEventListener('click', goToPrevImage);
+        nextBtn.addEventListener('click', goToNextImage);
+
+        updateText();
+        updateImage(currentIndex); 
+    </script>
+</body>
+
+</html>

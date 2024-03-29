@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+    /* background-image: url('pic3.jpg');  */
+    /* Replace 'background_image.jpg' with your image file */
+ 
+    background-image: url('./image/bg_img.jpeg'); 
+    /* Replace 'background_image.jpg' with your image file */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup {
+    width: 380px;
+    padding: 40px;
+    background: rgba(10, 53, 61, 0.8);
+    border-radius: 15px;
+    text-align: center;
+}
+
+h2 {
+    color: #277582;
+    font-weight: bold;
+}
+
+label {
+    color: #808c8a;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    margin-bottom: 10px;
+}
+
+.login {
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-signup {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-login {
+    background-color: #008CBA;
+    color: white;
+}
+
+p {
+    color: aliceblue;
+    font-size: 14px;
+}
+
+a {
+    color: #08ffd1;
+    text-decoration: none;
+}

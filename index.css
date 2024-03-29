@@ -1,0 +1,236 @@
+.intro {
+    display: table;
+    width: 100%;
+    padding: 0;
+    /* background: url(./image/bg_img.jpeg) center center no-repeat; */
+    background: url(./image/bg_img.jpeg)center center no-repeat;
+    background-color: #e5e5e5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    /* margin-bottom: 20px; */
+}
+
+.iii{
+    background: url(./image/bg_img.jpeg)center center no-repeat; 
+}
+
+.intro .overlay {
+    background: rgba(84, 83, 83, 0.3);
+}
+
+.intro h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 62px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5)
+}
+
+.intro p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 28px;
+    padding: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background: rgba(0, 0, 0, .45);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header .intro-text {
+    padding-top: 240px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+
+/* About Section */
+#about {
+    padding: 30px 0;
+    background: #fffdfd;
+
+}
+
+#about h3 {
+    font-size: 22px;
+    margin: 0 0 20px 0;
+}
+
+#about h2 {
+
+    margin-bottom: 5px;
+    /* padding-bottom: 5px; */
+    font-size: 30px;
+    border-bottom: 10px solid rgba(34, 31, 31, 0.09);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.about-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    text-align: center;
+    width: 800px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+
+
+#about .about-text li {
+    margin-bottom: 6px;
+    margin-left: 6px;
+    list-style: none;
+    padding: 10;
+    margin-top: 100px;
+}
+
+#about .about-text li:before {
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    color: #1f386e;
+    font-size: 11px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+#about img {
+    padding: 20px;
+    width: 500px;
+    margin-top: 10px;
+    background: #fff;
+    border-right: 0;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
+
+#about p {
+    line-height: 24px;
+    margin: 10px 0;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 0px;
+    /* height: 500px; */
+}
+
+.section1 {
+    padding: 30px 0;
+    background: #f6f6f6;
+    margin-left: 90px;
+}
+
+.row .section2 {
+    margin-left: 150px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.btn-custom {
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #111010;
+    background-color: #d9b0b3;
+    padding: 14px 20px;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #222723;
+    color: #fff;
+}
+
+
+
+/* Style for heading */
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.list-style {
+    margin: 0 20px;
+}
+
+.list-style h4 {
+    color: #572424;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.list-style ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list-style ul li {
+    margin-bottom: 10px;
+    /* position: relative; */
+}
+
+.list-style ul li a {
+    text-decoration: none;
+    color: #8a4f4f;
+    transition: color 0.3s ease;
+}
+
+.list-style ul li a:hover {
+    color: #4CAF50;
+}
+
+
+
+.list-style ul li a:hover:after {
+    width: 100%;
+}
+
+.list-style ul li:nth-child(even) {
+    background-color: #a9a5a5;
+    /* Light gray background */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.list-style ul li:nth-child(odd) {
+    background-color: #403f3f;
+    /* Light gray background */
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.size_size{
+    font-size: large;
+}

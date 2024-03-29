@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Arial';
+    background-image: url('./image/bg_img.jpeg'); 
+    /* Replace 'background_image.jpg' with your image file */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* div like all form box */
+.login {
+    width: 382px;
+    margin: 100px auto;
+    padding: 40px;
+    background: #23463f;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* login page name */
+h2 {
+    text-align: center;
+    color: #277582;
+    padding: 20px;
+}
+
+label {
+    color: #08ffd1;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+#Uname,
+#Pass
+ {
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    margin-bottom: 15px;
+}
+
+#log {
+    color: blue;
+}
+
+a {
+    float: right;
+    background-color: grey;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* signup link hover */
+ a:hover {
+    background: #ddd;
+    color: orangered;
+  }
+/* login here button edits */
+#logb{
+    /* color:#277582; */
+    width: 50%;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    align-items: center;
+    cursor:pointer;
+}
